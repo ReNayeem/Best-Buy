@@ -41,3 +41,14 @@
   text-shadow: 6px 6px 12px #c5c5c5,
              -6px -6px 12px #ffffff;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black !important;
+  text-align: left;
+  padding: 8px;
+}

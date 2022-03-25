@@ -13,41 +13,57 @@
     position: fixed;
 }
 
-button {
- color: #090909;
- padding: 0.7em 1.7em;
- font-size: 18px;
- border-radius: 0.5em;
- background: #e8e8e8;
- border: 1px solid #e8e8e8;
- transition: all .3s;
- box-shadow: 6px 6px 12px #c5c5c5,
+.card-design{
+    margin-top: 6rem;
+}
+
+.text-design{
+    text-shadow: 6px 6px 12px #c5c5c5,
              -6px -6px 12px #ffffff;
 }
 
-button:hover {
+.button1, .button2 {
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ transition: all .3s;
+}
+
+.button1{
+    background: #e8e8e8;
+    color: #090909;
+    border: 1px solid #e8e8e8;
+}
+
+
+.button1:hover {
  border: 1px solid white;
 }
 
-button:active {
+.button1:active {
  box-shadow: 4px 4px 12px #c5c5c5,
              -4px -4px 12px #ffffff;
 }
 
 .button2{
-    background-color: #212121;
+    background: #212121;
     color: white;
     border: 1px solid #212121;
 }
 
 .button2:hover {
     border: 1px solid #121212;
-   }
+}
+
+.button1:active {
+    box-shadow: 4px 4px 12px #212121,
+                -4px -4px 12px #121212;
+}
    
 
 @media only screen and (max-width: 500px) {
-    button {
-        padding: 0;
+    .button1, .button2 {
+        padding: .2px;
         font-size: 14px;
        }
     }

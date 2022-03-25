@@ -2,55 +2,55 @@
   {
     "id": 1111,
     "price": 999,
-    "img": "https://ibb.co/C7FMFwp",
+    "img": "https://i.ibb.co/VS8Q8L0/iphone.png",
     "name": "iPhone X"
   },
   {
     "id": 2222,
     "price": 499,
-    "img": "https://ibb.co/jhGhm3q",
+    "img": "https://i.ibb.co/8M2MqPG/oneplus.png",
     "name": "OnePlus 5"
   },
   {
     "id": 3333,
     "price": 699,
-    "img": "https://ibb.co/k513kKw",
+    "img": "https://i.ibb.co/ZGmHtdF/iphone-8n.png",
     "name": "iPhone 8"
   },
   {
     "id": 4444,
     "price": 349,
-    "img": "https://ibb.co/gWLcLrJ",
+    "img": "https://i.ibb.co/FYLdLhz/iphone-se.png",
     "name": "iPhone SE"
   },
   {
     "id": 5555,
     "price": 599,
-    "img": "https://ibb.co/ncs8Nfk",
+    "img": "https://i.ibb.co/Z861pKT/iphone-7.png",
     "name": "iPhone 7"
   },
   {
     "id": 6666,
     "price": 249,
-    "img": "https://ibb.co/r50Cs09",
+    "img": "https://i.ibb.co/BT3XN3k/nokia.png",
     "name": "Nokia 7"
   },
   {
     "id": 7777,
     "price": 599,
-    "img": "https://ibb.co/VWbFWpK",
+    "img": "https://i.ibb.co/jvqCvZp/pixel.png",
     "name": "Pixel 3"
   },
   {
     "id": 8888,
     "price": 799,
-    "img": "https://ibb.co/py0Q625",
+    "img": "https://i.ibb.co/DpVYP4T/samsung.png",
     "name": "Samsung Galaxy S9"
   },
   {
     "id": 9999,
     "price": 999,
-    "img": "https://ibb.co/1T2hP7H",
+    "img": "https://i.ibb.co/Tthp7Yz/samsung2.png",
     "name": "Samsung Galaxy S9 Plus"
   }
 ]

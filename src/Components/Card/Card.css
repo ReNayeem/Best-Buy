@@ -1,0 +1,57 @@
+.phone-image{
+    height: 250px;
+}
+
+.card{
+    border: 2px solid rgb(61, 82, 100);
+    width: 220px;
+    height: 390px;
+    padding: 1rem;
+    position: relative;
+}
+
+/* button start */
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+    align-items: center;
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+   }
+   
+   .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
+/* button end */

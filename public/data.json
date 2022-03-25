@@ -1,86 +1,56 @@
 [
-    {
-      "id": "623dda97a3395b6c7be516bf",
-      "price": 224.18,
-      "picture": "http://placehold.it/32x32",
-      "name": "Valdez Dunlap",
-      "company": "ARCTIQ"
-    },
-    {
-      "id": "623dda979e3845a3b464c935",
-      "price": 394.88,
-      "picture": "http://placehold.it/32x32",
-      "name": "Beverley Glenn",
-      "company": "ZEDALIS"
-    },
-    {
-      "id": "623dda97d3a6fe81f743674b",
-      "price": 290.76,
-      "picture": "http://placehold.it/32x32",
-      "name": "Hinton Hardin",
-      "company": "SENSATE"
-    },
-    {
-      "id": "623dda9775e2ef4056b54045",
-      "price": 156.35,
-      "picture": "http://placehold.it/32x32",
-      "name": "Tracie Sloan",
-      "company": "MEDIFAX"
-    },
-    {
-      "id": "623dda974e0df5bc6c485047",
-      "price": 261.32,
-      "picture": "http://placehold.it/32x32",
-      "name": "Sims Duke",
-      "company": "ESCHOIR"
-    },
-    {
-      "id": "623dda97576e09f8a71c69b6",
-      "price": 202.63,
-      "picture": "http://placehold.it/32x32",
-      "name": "Osborne Norris",
-      "company": "KATAKANA"
-    },
-    {
-      "id": "623dda97b68613541578eb10",
-      "price": 291.31,
-      "picture": "http://placehold.it/32x32",
-      "name": "Angie Knapp",
-      "company": "OBONES"
-    },
-    {
-      "id": "623dda971d736207e9c38d6d",
-      "price": 106.94,
-      "picture": "http://placehold.it/32x32",
-      "name": "Turner Cantrell",
-      "company": "GEEKOL"
-    },
-    {
-      "id": "623dda972583b75dfb7b9405",
-      "price": 225.96,
-      "picture": "http://placehold.it/32x32",
-      "name": "Tammi Adkins",
-      "company": "BEADZZA"
-    },
-    {
-      "id": "623dda970448eddae51f413a",
-      "price": 287.27,
-      "picture": "http://placehold.it/32x32",
-      "name": "Tabatha Irwin",
-      "company": "MAZUDA"
-    },
-    {
-      "id": "623dda97169321027f2bd984",
-      "price": 100.28,
-      "picture": "http://placehold.it/32x32",
-      "name": "Hull Bowen",
-      "company": "ROUGHIES"
-    },
-    {
-      "id": "623dda97740a9bf161b4080d",
-      "price": 310.46,
-      "picture": "http://placehold.it/32x32",
-      "name": "Madge Francis",
-      "company": "SPACEWAX"
-    }
-  ]
+  {
+    "id": 1111,
+    "price": 999,
+    "img": "https://ibb.co/C7FMFwp",
+    "name": "iPhone X"
+  },
+  {
+    "id": 2222,
+    "price": 499,
+    "img": "https://ibb.co/jhGhm3q",
+    "name": "OnePlus 5"
+  },
+  {
+    "id": 3333,
+    "price": 699,
+    "img": "https://ibb.co/k513kKw",
+    "name": "iPhone 8"
+  },
+  {
+    "id": 4444,
+    "price": 349,
+    "img": "https://ibb.co/gWLcLrJ",
+    "name": "iPhone SE"
+  },
+  {
+    "id": 5555,
+    "price": 599,
+    "img": "https://ibb.co/ncs8Nfk",
+    "name": "iPhone 7"
+  },
+  {
+    "id": 6666,
+    "price": 249,
+    "img": "https://ibb.co/r50Cs09",
+    "name": "Nokia 7"
+  },
+  {
+    "id": 7777,
+    "price": 599,
+    "img": "https://ibb.co/VWbFWpK",
+    "name": "Pixel 3"
+  },
+  {
+    "id": 8888,
+    "price": 799,
+    "img": "https://ibb.co/py0Q625",
+    "name": "Samsung Galaxy S9"
+  },
+  {
+    "id": 9999,
+    "price": 999,
+    "img": "https://ibb.co/1T2hP7H",
+    "name": "Samsung Galaxy S9 Plus"
+  }
+]

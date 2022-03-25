@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .phone-image{
     height: 250px;
 }
 
 .card{
     border: 2px solid rgb(61, 82, 100);
-    width: 220px;
-    height: 390px;
+    width: 240px;
+    height: 415px;
     padding: 1rem;
-    position: relative;
 }
 
 /* button start */

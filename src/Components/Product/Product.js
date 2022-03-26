@@ -12,6 +12,13 @@ const Product = () => {
             setSelectedProduct(newSelectedProduct)
         }
     }
+    const [randomProduct, setRandomProduct] = useState([]);
+
+    const randomProductGenerator = () => {
+        let addSelectedProduct = Object.assign({}, selectedProduct[Math.floor(Math.random() * selectedProduct.length)])
+        setRandomProduct(addSelectedProduct)
+
+    }
 
     useEffect(() => {
         fetch('data.json')
@@ -34,8 +41,9 @@ const Product = () => {
                     {selectedProduct.map((phone) => (
                         <h1 className="selected-product">{phone.name}</h1>
                     ))}
-                    <button className="button1 mx-2 my-2">CHOOSE 1 FOR ME</button>
+                    <button onClick={randomProductGenerator} className="button1 mx-2 my-2">CHOOSE 1 FOR ME</button>
                     <button className="button2">CHOOSE AGAIN</button>
+                    <h2>{randomProduct.name}</h2>
                 </div>
             </div>
         </div>

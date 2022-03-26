@@ -4,13 +4,9 @@ import './Question.css'
 const Question = () => {
     return (
         <div id="question-answer" className="text-center container mt-5">
-            <h5>How does JavaScript works?</h5>
-            <p>JavaScript is an interpreted, scripting, or programming language. It is implemented in browsers. It
-                dynamically updates content, verifies form data, controls multimedia, animates images, etc. It transforms
-                static HTML web pages into interactive web pages. The source code is going through the compiler, which
-                translates it into bytecodes that the computer language can understand and execute. JavaScript also can be
-                used to create web and mobile applications, to create web servers, to create games.</p>
-            <h5>Difference between localStorage and sessionStorage</h5>
+            <h4>How useState works?</h4>
+            <p>useState is a hook. This allows us to have state variables in the functional components. We pass the initial state in this function. It provides a variable with the current state value and another function to update this value.</p>
+            <h4>Difference between localStorage and sessionStorage</h4>
             <table>
                 <tr className="text-center">
                     <th>localStorage</th>

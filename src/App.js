@@ -9,7 +9,6 @@ function App() {
       <h1 className='py-4 fixed-top brand'>Best Buy</h1>
       <Product></Product>
       <Question></Question>
-
     </div>
   );
 }

@@ -12,7 +12,7 @@ const Card = (props) => {
                 <div className='card-body'>
                     <h4>{name}</h4>
                     <h5>${price}</h5>
-                    <button onClick={() => props.handleAddToSelectedProducts(props.phone)} className="cta">
+                    <button key={id} onClick={() => props.handleAddToSelectedProducts(props.phone)} className="cta">
                         <span className="hover-underline-animation"> Add to cart</span>
                         <BsFillCartFill />
                     </button>

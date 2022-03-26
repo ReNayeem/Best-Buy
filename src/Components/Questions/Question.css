@@ -1,10 +1,10 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid black !important;
     text-align: left;
     padding: 8px;
-  }
+}

@@ -1,14 +1,5 @@
-/* .products{
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: auto auto auto;
-}
+/* all styles for selected products section only */
 
-@media only screen and (max-width: 500px) {
-    .products{
-        grid-template-columns: auto;
-    }
-} */
 .sticky{
     position: fixed;
 }

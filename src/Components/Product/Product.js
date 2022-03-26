@@ -5,24 +5,34 @@ import './Product.css'
 
 const Product = () => {
     const [phones, setPhones] = useState([]);
+
+    // select product start 
     const [selectedProduct, setSelectedProduct] = useState([])
     const handleAddToSelectedProducts = (phone) => {
         if (selectedProduct.length < 4) {
             const newSelectedProduct = [...selectedProduct, phone]
             setSelectedProduct(newSelectedProduct)
         }
+        else {
+            alert("Can't add more than 4 products")
+        }
     }
-    const [randomProduct, setRandomProduct] = useState([]);
+    // select product end 
 
+    // choose 1 for me start 
+    const [randomProduct, setRandomProduct] = useState([]);
     const randomProductGenerator = () => {
         let addSelectedProduct = Object.assign({}, selectedProduct[Math.floor(Math.random() * selectedProduct.length)])
         setRandomProduct(addSelectedProduct)
 
     }
+    // choose 1 for me end 
 
+    // choose again start
     const chooseAgain = () => {
         setSelectedProduct([])
     }
+    // choose again end 
 
     useEffect(() => {
         fetch('data.json')
@@ -31,6 +41,8 @@ const Product = () => {
     }, [])
     return (
         <div className="container card-design row">
+
+            {/* display smartphones start */}
             <div className="col-9 col-md-10">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
@@ -38,6 +50,9 @@ const Product = () => {
                     }
                 </div>
             </div>
+            {/* display smartphones end */}
+
+            {/* selected products section start */}
             <div className="col-3 col-md-2">
                 <div className="sticky">
                     <h2 className="text-design">Selected Products</h2>
@@ -49,6 +64,9 @@ const Product = () => {
                     <button onClick={chooseAgain} className="button2">CHOOSE AGAIN</button>
                 </div>
             </div>
+            {/* selected products section end */}
+
+            {/* choose 1 for me modal start */}
             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -65,7 +83,7 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-
+            {/* choose 1 for me modal end */}
 
         </div>
     );

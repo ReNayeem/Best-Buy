@@ -21,8 +21,7 @@ const Product = () => {
     }
 
     const chooseAgain = () => {
-        let fake = {}
-        selectedProduct = fake
+        setSelectedProduct([])
     }
 
     useEffect(() => {

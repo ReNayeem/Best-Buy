@@ -20,6 +20,11 @@ const Product = () => {
 
     }
 
+    const chooseAgain = () => {
+        let fake = {}
+        selectedProduct = fake
+    }
+
     useEffect(() => {
         fetch('data.json')
             .then((res) => res.json())
@@ -41,11 +46,28 @@ const Product = () => {
                     {selectedProduct.map((phone) => (
                         <h1 className="selected-product">{phone.name}</h1>
                     ))}
-                    <button onClick={randomProductGenerator} className="button1 mx-2 my-2">CHOOSE 1 FOR ME</button>
-                    <button className="button2">CHOOSE AGAIN</button>
-                    <h2>{randomProduct.name}</h2>
+                    <button onClick={randomProductGenerator} type="button" className="button1 mx-2 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">CHOOSE 1 FOR ME</button>
+                    <button onClick={chooseAgain} className="button2">CHOOSE AGAIN</button>
                 </div>
             </div>
+            <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="staticBackdropLabel">CHOSEN FOR YOU</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div className="modal-body">
+                            <h2 className="selected-product">{randomProduct.name}</h2>
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     );
 }
